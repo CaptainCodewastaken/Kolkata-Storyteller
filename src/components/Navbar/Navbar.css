@@ -1,0 +1,68 @@
+.Navbar{
+  background-color: #000000;
+  height :4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav-items{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items:center;
+  gap:1rem;
+  margin-top: 0.7rem;
+}
+.Nav-logo{
+  padding-left:1.5rem;
+}
+.Nav-logo span{
+  font-size: larger;
+  font-weight: bolder;
+  color: #E5E8ED;
+  font-family: cursive;
+}
+.Nav-list-items{
+  padding-right: 3.5rem;
+}
+.Nav-list-items li{
+  font-size: larger;
+  color: #E5E8ED;
+  font-weight: bolder;
+}
+.Nav-heading:hover{
+  border:1.5px solid white;
+  cursor:pointer;
+}
+.Login-button {
+  font-size: larger; /* Original font-size */
+  color: #474745; /* Original text color */
+  background-color: #E5E8ED; /* Original background color */
+  border-radius: 15px; /* Original border radius */
+  padding-left: 15%; /* Original padding */
+  padding-right: 15%; /* Original padding */
+  padding-top: 5%; /* Original padding */
+  padding-bottom: 5%; /* Original padding */
+  font-weight: bold; /* Original font weight */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Original transition for hover */
+}
+
+.Login-button:hover {
+  background-color: #889294; /* Original hover background color */
+}
+.Nav-logo:hover{
+  border:1.5px solid white;
+  cursor:pointer;
+}
+link{
+  text-decoration: none;
+}
+.no-underline {
+  text-decoration: none;
+  color: inherit; /* Optional: Keeps the link color the same as the surrounding text */
+}
+
+.no-underline:hover {
+  text-decoration: none; /* Ensures underline is removed on hover */
+} 
