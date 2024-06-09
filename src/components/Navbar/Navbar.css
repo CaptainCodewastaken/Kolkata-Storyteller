@@ -1,5 +1,5 @@
 .Navbar{
-  background-color: #000000;
+  background-color: #05090f;
   height :4.5rem;
   display: flex;
   justify-content: space-between;
@@ -19,7 +19,7 @@
 .Nav-logo span{
   font-size: larger;
   font-weight: bolder;
-  color: #E5E8ED;
+  color: #e5e7eb;
   font-family: cursive;
 }
 .Nav-list-items{
@@ -28,7 +28,7 @@
 .Nav-list-items li{
   font-size: larger;
   color: #E5E8ED;
-  font-weight: bolder;
+
 }
 .Nav-heading:hover{
   border:1.5px solid white;

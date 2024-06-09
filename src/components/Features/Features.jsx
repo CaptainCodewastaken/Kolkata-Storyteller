@@ -11,8 +11,9 @@ import {
 const Features = () => {
   return (
     <div className="features-container">
-      <h2>Explore Kolkata Through Local Voices</h2>
-      <p>
+      <hr className="no-gap-hr"/>
+      <h2 className='heading'>Explore Kolkata Through Local Voices</h2>
+      <p className='heading-explain'>
         Kolkata comes alive through the stories of its residents. Dive into the
         city's vibrant tapestry of experiences, hidden gems, and authentic
         connections.
@@ -20,7 +21,7 @@ const Features = () => {
       <div className="features-grid">
         <div className="feature-item">
           <FontAwesomeIcon icon={faMicrophoneAlt} size="2x" className="icon" />
-          <h3>Unfiltered Narratives</h3>
+          <h3 className='heading'>Unfiltered Narratives</h3>
           <p>
             Listen to captivating stories directly from Kolkata's residents,
             told in their own words. No filters, just pure, unfiltered
@@ -29,7 +30,7 @@ const Features = () => {
         </div>
         <div className="feature-item">
           <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" className="icon" />
-          <h3>Discover Hidden Gems</h3>
+          <h3 className='heading'>Discover Hidden Gems</h3>
           <p>
             Go beyond the tourist traps and uncover local favorites. Find unique
             restaurants, shops, and hidden spots recommended by the people who
@@ -38,7 +39,7 @@ const Features = () => {
         </div>
         <div className="feature-item">
           <FontAwesomeIcon icon={faHeart} size="2x" className="icon" />
-          <h3>Connect with the City</h3>
+          <h3 className='heading'>Connect with the City</h3>
           <p>
             Feel the pulse of Kolkata by engaging with its residents. Share your
             own stories, ask questions, and build meaningful connections with
@@ -47,7 +48,7 @@ const Features = () => {
         </div>
         <div className="feature-item">
           <FontAwesomeIcon icon={faUserGroup} size="2x" className="icon" />
-          <h3>Become a Local Insider</h3>
+          <h3 className='heading'>Become a Local Insider</h3>
           <p>
             Gain access to a network of passionate Kolkata residents. Get
             insider tips, recommendations, and a deeper understanding of the

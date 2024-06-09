@@ -2,11 +2,11 @@
 
 .carousel {
     position: relative;
-    margin-top: 1rem;
+    
 }
 
 .carousel-inner {
-    border-radius: 10px;
+    
     overflow: hidden;
 }
 
@@ -45,3 +45,8 @@
         height: 20rem;
     }
 }
+.no-gap-hr {
+    margin: 0;
+    padding: 0;
+    width: 2px;
+  }

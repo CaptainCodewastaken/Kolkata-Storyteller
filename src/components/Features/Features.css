@@ -1,10 +1,16 @@
+.heading{
+  color:#FFCD00;
+}
+.heading-explain{
+  color:#FFffff;
+}
+
 .features-container {
     text-align: center;
     padding: 3rem;
-    margin: 2rem 0;
-    background-color: #f5f5f5; /* Light background */
-    color: #333; /* Dark text */
-    border-radius: 10px; /* Rounded corners */
+   
+    background-color: #05090F; /* Light background */
+    color: #FFffff; /* Dark text */
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
   }
   
@@ -28,6 +34,7 @@
   
     .feature-item {
       margin-bottom: 1.5rem; /* Reduce spacing on smaller screens */
+      
     }
   }
   
@@ -49,7 +56,7 @@
     padding: 2rem;
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
-    background-color: #fff; /* White background for each item */
+    background-color: #1d1d1d;
     transition: all 0.3s ease-in-out; /* Smooth hover effect */
   }
   
@@ -60,6 +67,11 @@
   
   .icon {
     margin-bottom: 1rem;
-    color: #007bff; /* Blue icon color */
+    color:#05090F
+  }
+  .no-gap-hr {
+    margin: 0;
+    padding: 0;
+    width:2px;
   }
   

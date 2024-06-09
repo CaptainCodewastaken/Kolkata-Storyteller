@@ -1,5 +1,9 @@
+.page{
+  background-color: #05090f;
+}
+
 .about-container {
-    background-color: #fff; /* Clean white background */
+    background-color: #1d1d1d; /* Clean white background */
     color: #333; /* Dark grey text for good contrast */
     padding: 40px;
     font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Modern, clean font */
@@ -10,7 +14,7 @@
   }
   
   .about-container h1 {
-    color: #000; /* Black heading for a bold statement */
+    color: #ffcd00; /* Black heading for a bold statement */
     text-align: center;
     margin-bottom: 20px;
     font-size: 2.2em; /* Slightly smaller heading for a more balanced look */
@@ -18,7 +22,7 @@
   }
   
   .about-container p {
-    color: #555; /* Medium grey text for readability */
+    color: #ffffff; /* Medium grey text for readability */
     line-height: 1.6; /* Slightly reduced line-height for a more compact feel (inspired by Apple) */
     margin-bottom: 20px;
     font-size: 1em;
@@ -29,7 +33,7 @@
   }
   
   .about-container h2 {
-    color: #000; /* Black sub-heading */
+    color: #ffcd00; /* Black sub-heading */
     margin-bottom: 15px; /* Reduced margin for a tighter layout */
     font-size: 1.6em; /* Smaller sub-heading for a clear hierarchy */
     font-weight: 500; /* Medium font weight for readability */

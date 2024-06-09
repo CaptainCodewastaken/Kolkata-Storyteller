@@ -3,6 +3,7 @@ import './About.css';
 
 const About = () => {
   return (
+    <div className='page'>
     <div className="about-container">
       <h1>The Kolkata Storyteller</h1>
       <p>
@@ -33,6 +34,7 @@ const About = () => {
           Our team comprises passionate storytellers, photographers, and writers, driven to uncover and share the hidden gems of Kolkata. We're a diverse group united by our love for this remarkable city and its people.
         </p>
       </section>
+    </div>
     </div>
   );
 };
