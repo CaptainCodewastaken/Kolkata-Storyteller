@@ -23,14 +23,16 @@ const Story = () => {
   }, []);
 
   return (
+    <div className='full-container'>
     <div className="story-container">
       {data.map((blog, index) => (
         <div key={index} className="story">
           <h2>{blog.title}</h2>
           <p className="summary">{blog.summary}</p>
-          <p>{blog.story}</p>
+          <p className="blog-story">{blog.story}</p>
         </div>
       ))}
+    </div>
     </div>
   );
 };
