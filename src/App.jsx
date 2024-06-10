@@ -38,15 +38,7 @@ function App() {
         </>
       ),
     },
-    {
-      path: '/login',
-      element: (
-        <>
-          <Navbar />
-          <Login />
-        </>
-      ),
-    },
+    
   ]);
 
   return (

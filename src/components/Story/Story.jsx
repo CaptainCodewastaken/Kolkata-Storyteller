@@ -2,7 +2,7 @@ import React from 'react'
 import './Story.css'
 const Story = () => {
   return (
-    <div>
+    <div class="containers" >
         <div className='gap'></div>
         <div class="container">
 
