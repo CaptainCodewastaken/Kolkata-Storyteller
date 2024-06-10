@@ -1,10 +1,29 @@
-.gap{
-    padding-top: 100px;
-    background-color: black;
-}
-.container{
-    background-color: black;
-}
-.containers{
-    background-color: black;
-}
+.story-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .story {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .story h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .story .summary {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .story p {
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
