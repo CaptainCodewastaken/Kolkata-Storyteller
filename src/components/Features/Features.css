@@ -9,7 +9,7 @@
     text-align: center;
     padding: 3rem;
    
-    background-color: #05090F; /* Light background */
+   
     color: #FFffff; /* Dark text */
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
   }
@@ -67,7 +67,7 @@
   
   .icon {
     margin-bottom: 1rem;
-    color:#05090F
+    color:#E5E5E5;
   }
   .no-gap-hr {
     margin: 0;

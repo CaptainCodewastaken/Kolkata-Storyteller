@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className='page'>
+    <div className='bg-[size:20px_20px] bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)]'>
     <div className="about-container">
       <h1>The Kolkata Storyteller</h1>
       <p>

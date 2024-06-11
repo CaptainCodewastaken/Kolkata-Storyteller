@@ -6,7 +6,6 @@ import howrahbridge from '../../assets/howrahbridge.jpg';
 
 const Hero = () => {
   return (
-    
     <div id="carouselExampleIndicators" className="carousel slide">
       <hr className="no-gap-hr" />
       <div className="carousel-indicators">

@@ -10,7 +10,7 @@ import {
 
 const Features = () => {
   return (
-    <div className="features-container">
+    <div className="features-container bg-[size:20px_20px] bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)]">
       <hr className="no-gap-hr"/>
       <h2 className='heading'>Explore Kolkata Through Local Voices</h2>
       <p className='heading-explain'>

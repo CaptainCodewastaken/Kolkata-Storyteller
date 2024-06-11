@@ -2,18 +2,24 @@
 
 .carousel {
     position: relative;
-    
 }
 
 .carousel-inner {
-    
     overflow: hidden;
 }
 
 .carousel-item img {
     height: 32rem;
-    object-fit: cover;
+    object-fit: cover; /* Default behavior for all images */
+    object-position: center; /* Default positioning for all images */
     transition: transform 0.5s ease-in-out;
+}
+
+/* Specific style for the first image */
+.carousel-item:nth-child(1) img {
+    object-fit: cover; /* Ensure the image covers the sides while keeping the top and bottom visible */
+    width: 100%;
+    height: 32rem; /* Ensure the height covers the container */
 }
 
 .carousel-item img:hover {
@@ -44,9 +50,14 @@
     .carousel-item img {
         height: 20rem;
     }
+
+    .carousel-item:nth-child(1) img {
+        height: 20rem; /* Adjust height for smaller screens */
+    }
 }
+
 .no-gap-hr {
     margin: 0;
     padding: 0;
     width: 2px;
-  }
+}

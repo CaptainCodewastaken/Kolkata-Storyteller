@@ -2,7 +2,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #05090f;
+
   }
   
   .story {
@@ -22,6 +22,7 @@
   .story .summary {
     font-style: italic;
     color: #ddd;
+    text-align: center;
   }
   
   .story p {
@@ -30,7 +31,11 @@
   }
   .blog-story{
     color: #ddd;
+    text-align: justify;
   }
   .full-container{
     background-color:#05090f ;
+  }
+  .blog-title{
+    text-align: center;
   }
